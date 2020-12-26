@@ -9,8 +9,8 @@
 # ./keep_speakers_alive.ps1
 
 $TaskName   = "keep_speakers_alive"
-$ScriptPath = "C:\Windows\Temp\keep_speakers_alive.vbs" # this VB script will be created
-$SoundPath  = "C:\Windows\Temp\22000.wav" # this sound file will be created
+$ScriptPath = "C:\keep_speakers_alive.vbs" # this VB script will be created
+$SoundPath  = "C:\22000.wav" # this sound file will be created
 $SoundURL   = "https://github.com/jeannier/keep-speakers-alive/raw/main/22000.wav" # sound to download
 $Duration   = "P1D" # the task will be scheduled every day
 $Interval   = "PT10M" # the task will run every 10 minutes
