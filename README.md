@@ -7,10 +7,10 @@ This PowerShell script is keeping the speakers alive by playing an inaudible sou
 ## Installation
 
 Download the ps1 file
- 
-Go to : Windows > cmd > Run as administrator
+
+Go to : Windows button > Windows PowerShell > Run as administrator
 
 - cd [directory where the file is]
-- Set-ExecutionPolicy unrestricted
+- Set-ExecutionPolicy unrestricted -Force
 - ./keep_speakers_alive.ps1
 - Set-ExecutionPolicy restricted
